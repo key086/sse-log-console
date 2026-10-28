@@ -1,0 +1,48 @@
+{
+  "name": "sse-log-console",
+  "version": "0.1.0",
+  "description": "Zero-dependency real-time log web console over Server-Sent Events. Tail log files or wrap any command, watch live in the browser with auto-scroll, level highlighting and filtering. A Node.js rewrite of a battle-tested Flask SSE deploy console.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "sse-log-console": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "log",
+    "logs",
+    "tail",
+    "sse",
+    "server-sent-events",
+    "console",
+    "realtime",
+    "live",
+    "monitor",
+    "devops",
+    "ci-cd",
+    "web-ui",
+    "zero-dependency"
+  ],
+  "license": "MIT",
+  "author": "iien21 <yeah_lxf@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/key086/sse-log-console.git"
+  },
+  "homepage": "https://github.com/key086/sse-log-console#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.4.0"
+  }
+}
