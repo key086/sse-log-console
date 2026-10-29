@@ -1,5 +1,10 @@
 # sse-log-console
 
+[![npm version](https://img.shields.io/npm/v/sse-log-console)](https://www.npmjs.com/package/sse-log-console) [![CI](https://github.com/key086/sse-log-console/actions/workflows/ci.yml/badge.svg)](https://github.com/key086/sse-log-console/actions/workflows/ci.yml) ![license](https://img.shields.io/badge/license-MIT-blue) ![node](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+
+[English](./README.en.md) | 中文
+
+
 **零依赖**实时日志网页控制台：`tail` 日志文件或包装任意命令，浏览器里实时观看 —— SSE 推送、自动滚动、错误/警告级别高亮、关键字过滤、断线重连、日志轮转自动跟随。
 
 > 源自生产环境用了多年的 Flask SSE 部署控制台，这是它的 Node.js 零依赖重写版：把"部署时盯日志"从 SSH 终端搬进浏览器，团队所有人都能看。
